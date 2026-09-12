@@ -2,7 +2,7 @@
 
 > This project mirrors the pipeline architecture I would design today for the kind of production and supply-chain data I worked with at HCLTech on the KLA semiconductor account, where pipeline reliability and stakeholder trust mattered more than algorithmic sophistication.
 
-## TL;DR
+## Overview
 An end-to-end lakehouse pipeline over 100k+ Brazilian e-commerce orders: raw CSVs land in **AWS S3**, are cleaned into **Delta Lake** tables with **PySpark** on **Databricks**, modelled into a **star schema**, loaded into **Snowflake**, and served as an analytics dashboard. Total cloud spend: **under €1**.
 
 ## Architecture
