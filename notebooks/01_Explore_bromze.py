@@ -253,8 +253,8 @@ import snowflake.connector
 from snowflake.connector.pandas_tools import write_pandas
 
 conn = snowflake.connector.connect(
-    user="SANG69TH",
-    password="Kichu@10027032s",
+    user="YOUR_SNOWFLAKE_USER",
+    password="YOUR_PASSWORD",
     account="amhhofn-bp05819",
     warehouse="COMPUTE_WH",
     database="OLIST",
